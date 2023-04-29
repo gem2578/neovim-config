@@ -19,7 +19,8 @@ return {
 					["a"] = {"add", config = {show_path = "relative"}},
 					["c"] = {"copy", config = {show_path = "relative"}},
 					["A"] = {"add_directory", config = {show_path = "relative"}},
-					["m"] = {"move", config = {show_path = "relative"}}
+					["m"] = {"move", config = {show_path = "relative"}},
+					["<space>"] = "noop"
 				}
 			}
 		},

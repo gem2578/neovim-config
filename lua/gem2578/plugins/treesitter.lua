@@ -4,21 +4,19 @@ return {
 		build = ":TSUpdate",
 		event = { "BufReadPost", "BufNewFile" },
 		dependencies = {
-			"p00f/nvim-ts-rainbow"
+			"HiPhish/nvim-ts-rainbow2",
 		},
 		opts = {
 			ensure_installed = "all",
 			highlight = {
-    			enable = true,
+				enable = true,
 				additional_vim_regex_highlighting = false
 			},
 			indent = {
-    			enable = true
-  			},
+				enable = true
+			},
 			rainbow = {
-   				enable = true,
-    			extended_mode = true, 
-    			max_file_lines = nil, 
+				enable = true,
 			}
 		},
 		config = function(_, opts)

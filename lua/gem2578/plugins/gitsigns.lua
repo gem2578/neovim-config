@@ -2,7 +2,7 @@ return {
 	{
 		"lewis6991/gitsigns.nvim",
 		opts = {
-  			signcolumn = false,
+			signcolumn = false,
 			numhl = true
 		}
 	}
