@@ -11,6 +11,9 @@ vim.opt.background = dark
 vim.opt.laststatus = 2
 vim.opt.statusline="File:%t,Type:%Y%m%=%l/%L"
 
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
 vim.o.termguicolors = true
 vim.cmd[[colorscheme darkblue]]
 

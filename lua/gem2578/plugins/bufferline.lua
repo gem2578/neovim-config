@@ -20,7 +20,19 @@ return {
          				text = "Neo-tree",
       	    			highlight = "Directory",
         	  			text_align = "left",
-        			}
+        			},
+					{
+        	  			filetype = "DiffviewFiles",
+         				text = "Diffvies",
+      	    			highlight = "Directory",
+        	  			text_align = "left",
+					},
+					{
+        	  			filetype = "NeogitStatus",
+         				text = "Git Status",
+      	    			highlight = "Directory",
+        	  			text_align = "left",
+					}
 				},
 				indicator = {
                 	style = "none",
