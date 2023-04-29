@@ -1,20 +1,12 @@
-local lines = "gem2578.plugins.lines."
-
 return {
 	{
 		"nvim-lualine/lualine.nvim",
 		event = "VeryLazy",
 		opts = {
-			extensions = { 
-				require( lines .. "lazy" ) 
-			},
 			options = {
 				globalstatus = true,
 			},
 			sections = {
-				lualine_a = {{
-					"mode",
-				}},
 				lualine_c = {
 					{
 						"filetype",
