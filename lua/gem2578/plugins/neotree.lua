@@ -13,6 +13,14 @@ return {
 			filesystem = {
 				group_empty_dirs = true,
 				hijack_netrw_behavior = "open_default",
+				filtered_items = {
+					always_show = {
+              			".gitignore",
+            		},
+					never_show = {
+						".DS_Store",
+					},
+				}
 			},
 			window = {
 				mappings = {
