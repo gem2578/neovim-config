@@ -7,6 +7,9 @@ return {
 			"nvim-tree/nvim-web-devicons",
 			"MunifTanjim/nui.nvim",
 		},
+		keys = {
+			{ "<leader>ft", "<cmd>Neotree toggle<cr>", desc = "NeoTree" },
+		},
 		cmd = "Neotree",
 		opts = {
 			use_popups_for_input = false,
@@ -15,8 +18,8 @@ return {
 				hijack_netrw_behavior = "open_default",
 				filtered_items = {
 					always_show = {
-              			".gitignore",
-            		},
+						".gitignore",
+					},
 					never_show = {
 						".DS_Store",
 					},
